@@ -55,7 +55,7 @@ export class TableList extends React.Component<ElementProperties, ElementState> 
                         </td>
                         <td>{object.description}</td>
                         <td>
-                            <a href={object.url}>{object.name}</a>
+                            <a href={object.html_url}>{object.name}</a>
                         </td>
                     </tr>)
 

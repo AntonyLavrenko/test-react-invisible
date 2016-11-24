@@ -37,7 +37,7 @@ System.register(["react", "underscore"], function(exports_1, context_1) {
                 };
                 TableList.prototype.render = function () {
                     return React.createElement("table", {className: "ui celled striped table"}, React.createElement("thead", null, React.createElement("tr", null, React.createElement("th", null, "Name"), React.createElement("th", null, "Description"), React.createElement("th", null, "Homepage"))), React.createElement("tbody", null, this.state.list.map(function (object, i) {
-                        return (React.createElement("tr", null, React.createElement("td", {className: "collapsing"}, object.name), React.createElement("td", null, object.description), React.createElement("td", null, React.createElement("a", {href: object.url}, object.name))));
+                        return (React.createElement("tr", null, React.createElement("td", {className: "collapsing"}, object.name), React.createElement("td", null, object.description), React.createElement("td", null, React.createElement("a", {href: object.html_url}, object.name))));
                     })));
                 };
                 return TableList;
