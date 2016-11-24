@@ -1,16 +1,8 @@
-# React with TypeScript and some types of animations
-Examples animations to react
+# React with TypeScript and some test cases from Invisible
 
 # Build and Run application
 
 ```sh
 npm install
-npm run start
-```
-
-
-# Application was create WebServer
-
-```sh
-Local: http://localhost:8001
+gulp build
 ```

@@ -1,0 +1,7 @@
+button.pressed {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff; }
+
+button.hover {
+  box-shadow: 0 0 10px #000; }

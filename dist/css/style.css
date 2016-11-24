@@ -1,0 +1,23 @@
+html, body {
+  height: 100%; }
+
+body {
+  background: #333;
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Helvetica Neue;
+  padding: 20px; }
+
+h1 {
+  font-size: 2em;
+  color: #eee;
+  display: inline-block; }
+
+a {
+  color: #0000AA; }
+
+p {
+  margin-top: 1em;
+  text-align: center;
+  color: #aaa; }

@@ -1,8 +1,6 @@
 /// <reference path="../../typings/react/react.d.ts" />
 /// <reference path="../../typings/react/react-dom.d.ts" />
 
-/// <reference path="elements/element.tsx" />
-
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
